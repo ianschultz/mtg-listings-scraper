@@ -296,7 +296,7 @@ def construct_email(flagged):
 
 
 if __name__ == "__main__":
-    with open("C:\\Users\\ian\\Dropbox\\Coding\\Python\\tcgPlayerScraper\\TCGPlayer-Scraper-master\\searchUrls.txt", 'r') as obj:
+    with open("searchUrls.txt", 'r') as obj:
         urls = obj.readlines()
 
     flagged_listings = {}
